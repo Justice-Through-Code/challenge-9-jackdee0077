@@ -35,7 +35,7 @@ def validate_user_input():
 # - if there are not ten items in the list, tell the user that it is not applicable: 'N/A'
 def print_tenth_item(top_10):
     try:
-       print((f'{"top_ten"[9]}'))
+       print(f'{"top_ten"[9]}')
     except IndexError:
         print('N/A')
 
